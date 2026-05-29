@@ -1,0 +1,31 @@
+Portale d'Ingresso (Eccezioni)
+
+- Obiettivo per lo studente: Creare un controllo dell'età per un sito web. Se l'utente è minorenne, il programma deve lanciare un'eccezione bloccando l'accesso, ma il sistema deve gestirla senza crashare.
+
+📝 Istruzioni passo per passo per gli studenti:
+1. Crea una classe chiamata ControlloEta.
+2. Crea un metodo statico fuori dal main chiamato controllaIngresso(int eta).
+3. Dentro questo metodo, metti un if: se l'età è minore di 18, usa l'istruzione throw new IllegalArgumentException("Accesso negato ai minori.");. Se è 18 o più, stampa "Benvenuto nel sito!".
+4. Nel metodo main, simula l'accesso di un ragazzo di 15 anni.
+5. Per evitare che il programma si interrompa con una schermata rossa di errore, avvolgi la chiamata al metodo controllaIngresso(15) dentro un blocco try-catch.
+6. Nel blocco catch, stampa un messaggio personalizzato di avviso per l'utente.
+
+public class ControlloEta {
+    
+    public static void controllaIngresso(int eta) {
+        if (eta < 18) {
+            // Lancia l'eccezione qui
+        } else {
+            System.out.println("Accesso consentito.");
+        }
+    }
+
+    public static void main(String[] args) {
+        // Inserisci un blocco try-catch qui intorno
+        try {
+            controllaIngresso(15); 
+        } catch (IllegalArgumentException e) {
+            // Gestisci l'errore stampando un messaggio amichevole
+        }
+    }
+}

@@ -1,0 +1,25 @@
+Il Convertitore di Temperatura
+
+- Obiettivo per lo studente: Creare un programma che converta una temperatura 
+da gradi Celsius a Fahrenheit usando la formula: F = (C x 9/5) + 32.
+
+📝 Istruzioni passo per passo:
+
+1. Crea una classe chiamata Convertitore.
+2. All'interno del metodo main, dichiara una variabile di tipo double chiamata celsius e assegnale un valore a tua scelta (es. 25.0).
+3. Dichiara una seconda variabile double chiamata fahrenheit.
+4.Scrivi la formula matematica per calcolare i Fahrenheit e assegna il risultato alla variabile appena creata. 
+Attenzione: in Java, scrivere 9/5 tra numeri interi darà come risultato 1. Scrivi 9.0 / 5.0 per avere la precisione decimale!
+5.Usa System.out.println per stampare una frase chiara, ad esempio: "25.0 gradi Celsius equivalgono a 77.0 gradi Fahrenheit".
+
+Struttura di partenza :
+
+public class Convertitore {
+    public static void main(String[] args) {
+        // 1. Inserisci qui la variabile per i Celsius
+        
+        // 2. Inserisci qui la formula per i Fahrenheit
+        
+        // 3. Stampa il risultato concatenando testo e variabili
+    }
+}

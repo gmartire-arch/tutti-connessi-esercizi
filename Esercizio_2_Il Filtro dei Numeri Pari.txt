@@ -1,0 +1,29 @@
+Esercizio 2 (Per il Modulo 2): Il Filtro dei Numeri Pari
+
+Obiettivo per lo studente: Scorrere una lista di numeri interi e stampare a schermo solo quelli pari.
+
+📝 Istruzioni passo per passo per gli studenti:
+
+1. Crea una classe chiamata FiltroPari.
+2. Nel main, dichiara e inizializza un array di numeri interi (int[]) contenente una serie di numeri casuali (es. 2, 5, 8, 11, 14, 19, 22).
+3. Scrivi un ciclo for che parta da 0 e arrivi fino alla lunghezza dell'array (numeri.length).
+4. Dentro il ciclo, usa una struttura if per verificare se il numero corrente è pari.
+
+Suggerimento: Un numero è pari se il resto della divisione per 2 è zero. In Java il resto si calcola con l'operatore modulo % (es. if (numero % 2 == 0)).
+
+5. Se la condizione è vera, stampa il numero.
+
+💡 Struttura di partenza da dare agli studenti:
+
+
+public class FiltroPari {
+    public static void main(String[] args) {
+        int[] numeri = {2, 5, 8, 11, 14, 19, 22};
+
+        System.out.println("Numeri pari trovati:");
+        for (int i = 0; i < numeri.length; i++) {
+            // Inserisci qui il controllo IF usando l'operatore %
+            // Se è vero, stampa numeri[i]
+        }
+    }
+}

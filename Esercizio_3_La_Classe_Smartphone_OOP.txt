@@ -1,0 +1,39 @@
+La Classe Smartphone (OOP)
+
+- Obiettivo per lo studente: Creare un oggetto che rappresenti un telefono, con un livello di batteria che scende quando si usa un'applicazione.
+
+📝 Istruzioni passo per passo per gli studenti:
+
+1. Crea una classe chiamata Smartphone.
+2. Aggiungi due attributi (variabili d'istanza) private: String modello e int livelloBatteria.
+3. Crea un costruttore che accetti il modello e imposti il livelloBatteria inizialmente a 100.
+4. Crea un metodo pubblico chiamato usaApp(String nomeApp). Dentro questo metodo:
+
+Sottrai 10 al livelloBatteria.
+
+Stampa un messaggio del tipo: "Hai usato [nomeApp]. Batteria residua: [livelloBatteria]%".
+
+5. Nel metodo main (che può stare nella stessa classe o in una classe di test), crea un oggetto mioTelefono (es. un "iPhone 15" o "Galaxy S24").
+6. Chiama il metodo usaApp due o tre volte di seguito per vedere la batteria scendere.
+
+💡 Struttura di partenza da dare agli studenti:
+
+class Smartphone {
+    // 1. Attributi private
+    
+    // 2. Costruttore
+    public Smartphone(String modello) {
+        // imposta il modello e metti la batteria a 100
+    }
+
+    // 3. Metodo usaApp
+    public void usaApp(String nomeApp) {
+        // diminuisci la batteria e stampa lo stato
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // 4. Crea l'oggetto Smartphone e usa il metodo usaApp
+    }
+}
