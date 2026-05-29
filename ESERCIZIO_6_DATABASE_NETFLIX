@@ -1,3 +1,0 @@
-Progettare il database per una piattaforma di streaming di film (stile Netflix). 
-Dobbiamo memorizzare i dati dei Film (ID, Titolo, Durata). Ogni film appartiene a un solo Regista (ID, Nome, Nazionalità),mentre un regista può aver diretto più film. 
-Gli Utenti (ID, Email, Nome) possono guardare i film; dobbiamo tenere traccia di quale utente ha visto quale film e in quale data.
