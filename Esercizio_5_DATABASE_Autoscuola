@@ -1,0 +1,11 @@
+Traccia dell'esercizio:
+
+Un'autoscuola ha bisogno di un database per gestire le sue lezioni di guida. Progetta il diagramma E-R e lo schema delle tabelle finali sapendo che:
+
+Ci sono gli Istruttori (ID, Nome, Patente Speciale).
+
+Ci sono gli Allievi (ID, Nome, Numero Telefono).
+
+Un Istruttore fa lezione a molti Allievi, e un Allievo può fare lezioni con istruttori diversi nel tempo.
+
+Per ogni Lezione effettuata, l'autoscuola deve memorizzare tassativamente la Data, l'Ora e l'Argomento trattato (es. "Parcheggi", "Autostrada").
